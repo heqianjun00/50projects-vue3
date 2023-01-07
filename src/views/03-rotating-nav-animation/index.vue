@@ -2,8 +2,8 @@
 </script>
 
 <template>
-  <router-view/>
+  rotating-nav-animation
 </template>
 
-<style scoped>
+<style scoped lang="scss">
 </style>

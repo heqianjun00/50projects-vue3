@@ -2,8 +2,8 @@
 </script>
 
 <template>
-  <router-view/>
+  blurry-loading
 </template>
 
-<style scoped>
+<style scoped lang="scss">
 </style>

@@ -2,8 +2,8 @@
 </script>
 
 <template>
-  <router-view/>
+  expanding-cards
 </template>
 
-<style scoped>
+<style scoped lang="scss">
 </style>

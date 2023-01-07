@@ -2,8 +2,8 @@
 </script>
 
 <template>
-  <router-view/>
+  hidden-search
 </template>
 
-<style scoped>
+<style scoped lang="scss">
 </style>

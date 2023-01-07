@@ -2,8 +2,8 @@
 </script>
 
 <template>
-  <router-view/>
+  progress-steps
 </template>
 
-<style scoped>
+<style scoped lang="scss">
 </style>
