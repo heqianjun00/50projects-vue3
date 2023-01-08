@@ -16,6 +16,7 @@ const routesList = route.options.routes.filter((item) => item.meta);
 <style lang="scss" scoped>
 .container {
   width: 1200px;
+  height: 100%;
   background-color: #78e08f;
   display: flex;
   flex-flow: wrap;
