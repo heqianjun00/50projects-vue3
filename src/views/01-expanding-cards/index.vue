@@ -43,21 +43,31 @@ const clickPanel = (id: number) => {
 </script>
 
 <template>
-  <div class="container">
-    <div
-      v-for="item in imgs"
-      :key="item.id"
-      @click="clickPanel(item.id)"
-      class="panel"
-      :class="activeId === item.id ? 'active' : ''"
-      :style="{'background-image': `url(${item.src})`}"
-    >
-      <h3>{{ item.tile }}</h3>
+  <div class="container-wrap">
+    <div class="container">
+      <div
+        v-for="item in imgs"
+        :key="item.id"
+        @click="clickPanel(item.id)"
+        class="panel"
+        :class="activeId === item.id ? 'active' : ''"
+        :style="{'background-image': `url(${item.src})`}"
+      >
+        <h3>{{ item.tile }}</h3>
+      </div>
     </div>
   </div>
 </template>
 
 <style scoped lang="scss">
+.container-wrap {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
 .container {
   display: flex;
   width: 90vw;
