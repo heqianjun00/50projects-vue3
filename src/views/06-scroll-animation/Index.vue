@@ -39,7 +39,6 @@ onBeforeUnmount(() => {
 
 <style scoped lang="scss">
 .container {
-  width: 100vw;
   height: 100%;
   background-color: #efedd6;
   display: flex;
