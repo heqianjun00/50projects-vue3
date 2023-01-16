@@ -50,6 +50,15 @@ const routes = [
     }
   },
   {
+    path: "/scroll-animation",
+    name: "scroll-animation",
+    component: () => import("@/views/06-scroll-animation/Index.vue"),
+    meta: {
+      id: 0,
+      title: "Scroll Animation"
+    }
+  },
+  {
     path: "/:pathMatch(.*)*",
     name: "error",
     component: () => import("@/views/error/Index.vue")
