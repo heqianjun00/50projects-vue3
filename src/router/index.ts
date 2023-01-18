@@ -59,6 +59,15 @@ const routes = [
     }
   },
   {
+    path: "/split-landing-page",
+    name: "split-landing-page",
+    component: () => import("@/views/07-split-landing-page/Index.vue"),
+    meta: {
+      id: 0,
+      title: "Split Landing Page"
+    }
+  },
+  {
     path: "/:pathMatch(.*)*",
     name: "error",
     component: () => import("@/views/error/Index.vue")
