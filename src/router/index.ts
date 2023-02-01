@@ -36,7 +36,6 @@ const routes = [
     name: "hidden-search",
     component: () => import("@/views/04-hidden-search/Index.vue"),
     meta: {
-      id: 0,
       title: "Hidden Search"
     }
   },
@@ -45,7 +44,6 @@ const routes = [
     name: "blurry-loading",
     component: () => import("@/views/05-blurry-loading/Index.vue"),
     meta: {
-      id: 0,
       title: "Blurry Loading"
     }
   },
@@ -54,7 +52,6 @@ const routes = [
     name: "scroll-animation",
     component: () => import("@/views/06-scroll-animation/Index.vue"),
     meta: {
-      id: 0,
       title: "Scroll Animation"
     }
   },
@@ -63,8 +60,15 @@ const routes = [
     name: "split-landing-page",
     component: () => import("@/views/07-split-landing-page/Index.vue"),
     meta: {
-      id: 0,
       title: "Split Landing Page"
+    }
+  },
+  {
+    path: "/form-input-wave",
+    name: "form-input-wave",
+    component: () => import("@/views/08-form-input-wave/Index.vue"),
+    meta: {
+      title: "Form Input Wave"
     }
   },
   {
