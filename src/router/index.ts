@@ -72,6 +72,14 @@ const routes = [
     }
   },
   {
+    path:"/sound-board",
+    name: "sound-board",
+    component: () => import("@/views/09-sound-board/Index.vue"),
+    meta: {
+      title: "Sound Board"
+    }
+  },
+  {
     path: "/:pathMatch(.*)*",
     name: "error",
     component: () => import("@/views/error/Index.vue")
