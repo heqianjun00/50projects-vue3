@@ -88,6 +88,14 @@ const routes = [
     }
   },
   {
+    path:"/event-keycodes",
+    name: "event-keycodes",
+    component: () => import("@/views/11-event-keycodes/Index.vue"),
+    meta: {
+      title: "Event Keycodes"
+    }
+  },
+  {
     path: "/:pathMatch(.*)*",
     name: "error",
     component: () => import("@/views/error/Index.vue")
