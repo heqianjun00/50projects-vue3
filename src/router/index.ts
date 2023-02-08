@@ -80,6 +80,14 @@ const routes = [
     }
   },
   {
+    path:"/dad-jokes",
+    name: "dad-jokes",
+    component: () => import("@/views/10-dad-jokes/Index.vue"),
+    meta: {
+      title: "Dad Jokes"
+    }
+  },
+  {
     path: "/:pathMatch(.*)*",
     name: "error",
     component: () => import("@/views/error/Index.vue")
