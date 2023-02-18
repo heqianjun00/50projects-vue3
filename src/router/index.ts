@@ -96,6 +96,14 @@ const routes = [
     }
   },
   {
+    path:"/faq-collapse",
+    name: "faq-collapse",
+    component: () => import("@/views/12-faq-collapse/Index.vue"),
+    meta: {
+      title: "Faq Collapse"
+    }
+  },
+  {
     path: "/:pathMatch(.*)*",
     name: "error",
     component: () => import("@/views/error/Index.vue")
